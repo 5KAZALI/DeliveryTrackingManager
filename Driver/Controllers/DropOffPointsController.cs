@@ -14,7 +14,7 @@ namespace Driver.Controllers
 {
     public class DropOffPointsController : ApiController
     {
-        private DropOffPointsContext db = new DropOffPointsContext();
+        private DropPointsContext db = new DropPointsContext();
 
         // GET: api/DropOffPoints
         public IQueryable<DropOffPoint> GetDropOffPoints()
